@@ -1,0 +1,80 @@
+* {
+    color: white;
+    font-family: cursive;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#title {
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+
+#container {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    text-align: center;
+}
+
+#celebImg {
+    width: 500px;
+    height: 500px;
+    border: 10px groove rgba(9,9,121,1);
+    border-radius: 25px;
+}
+
+#celebInput {
+    background: linear-gradient(90deg, rgba(0,212,255,1) 35%, rgb(110, 110, 232) 100%);
+    color:rgb(2,0,36);
+    font-size: 24px;
+    width: 400px;
+    height: 50px;
+    border: 10px groove rgba(9,9,121,1);
+    border-radius: 25px;
+}
+
+.Btn {
+    background: linear-gradient(90deg, rgba(0,212,255,1) 35%, rgb(110, 110, 232) 100%);
+    color:rgb(2,0,36);
+    font-size: 24px;
+    width: 100px;
+    height: 70px;
+    border: 10px groove rgba(9,9,121,1);
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Btn:hover {
+    background: rgb(110, 110, 232);
+}
+
+#score {
+    position: absolute;
+    left: 550px;
+    top: 200px;
+}
+
+#lostOutput {
+    position: absolute;
+    text-align: center;
+    font-size: 120px;
+    left: 100px;
+}
+
+#newGameBtn {
+    position: absolute;
+    top: 440px;
+    left: 180px;
+    color: white;
+    font-size: 16px;
+}
+
+#newGameBtn:hover {
+    background: rgb(110, 110, 232);
+}

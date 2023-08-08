@@ -1,0 +1,61 @@
+* {
+    color: white;
+    font-family: cursive;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+#title {
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+
+#navIcons {
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navIcon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 120px;
+}
+
+.iconTitle {
+    position: absolute;
+    top: 270px;
+}
+
+#gtcTitle {
+    right:630px;
+}
+
+#wolTitle {
+    right:255px;
+}
+
+#gtcIcon {
+    border: 5px;
+    border-style:solid;
+    border-color: #2E3192;
+}
+
+#wolIcon {
+    border: 5px;
+    border-style:solid;
+    border-color: #2E3192;
+}

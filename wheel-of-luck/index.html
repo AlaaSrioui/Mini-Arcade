@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wheel Of Luck</title>
+        <link rel="stylesheet" href="style.css">
+        <script src='https://code.jquery.com/jquery-2.2.4.js'%3E></script>
+</head>
+<body>
+    <a href="/main-lobby/index.html">
+        <h1 id="title">Arcade</h1>
+    </a>
+    <div id="container">
+        <div id="wheelContainer">
+            <div class="spinBtn">spin</div>
+            <div class="wheel">
+                <div class="option" style="--i:1;--clr: rgb(2,0,36);"><span id="0"></span></div>
+                <div class="option" style="--i:2;--clr: rgba(0,212,255,1);"><span id="1"></span></div>
+                <div class="option" style="--i:3;--clr: rgb(2,0,36);"><span id="2"></span></div>
+                <div class="option" style="--i:4;--clr: rgba(0,212,255,1);"><span id="3"></span></div>
+                <div class="option" style="--i:5;--clr: rgb(2,0,36);"><span id="4"></span></div>
+                <div class="option" style="--i:6;--clr: rgba(0,212,255,1);"><span id="5"></span></div>
+                <div class="option" style="--i:7;--clr: rgb(2,0,36);"><span id="6"></span></div>
+                <div class="option" style="--i:8;--clr: rgba(0,212,255,1);"><span id="7"></span></div>
+            </div>
+        </div>
+        <div id="inputContainer">
+            <input id="addInput" type="text" placeholder="Add option..">
+            <button id="addBtn">Add</button>
+            <button id="clearBtn">Clear</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
